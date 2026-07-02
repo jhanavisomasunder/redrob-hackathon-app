@@ -1,0 +1,35 @@
+/* Premium Glassmorphism & Enterprise SaaS Layout styling */
+.stApp {
+    background-color: #0F172A;
+}
+
+div[data-testid="stMetricValue"] {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #818CF8;
+}
+
+.candidate-card {
+    background: rgba(30, 41, 59, 0.7);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+}
+
+.candidate-card:hover {
+    transform: translateY(-2px);
+    border-color: #4F46E5;
+}
+
+.badge {
+    background-color: #312E81;
+    color: #E0E7FF;
+    padding: 0.25rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
